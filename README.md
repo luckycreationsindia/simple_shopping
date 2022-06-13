@@ -27,7 +27,7 @@ The screenshots below are taken on a android emulator.
 - A little knowledge of Dart and Flutter
 - Device to test (Physical or Emulator or you can test on web too🤯)
 
-# ✨ 📲 Device Requirements
+# 📲 Device Requirements
 - Android 19 and above for Android APK
 - iOS 9 or above for iPhone
 - Chrome 86 or Above for Chrome Browser
