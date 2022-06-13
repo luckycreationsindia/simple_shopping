@@ -8,7 +8,9 @@ Design screens are on [Uplabs.](https://www.uplabs.com/posts/shopping-app-uikit)
 
 Don't forget to star⭐ the repo if you like what you see😉.
 # 🎥 Demo
-![demo](./demo.gif)
+| Product Demo |
+|------|
+|<img src="./demo.gif" width="300">|
 
 # 📸 Screenshots
 The screenshots below are taken on a android emulator.
