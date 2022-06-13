@@ -30,6 +30,7 @@ class _CustomCartAppBarState extends State<CustomCartAppBar> {
             fontWeight: FontWeight.bold,
           ),
           textAlign: TextAlign.center,
+          overflow: TextOverflow.fade,
         ),
         const Spacer(),
         Container(

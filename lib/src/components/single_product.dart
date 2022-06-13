@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import 'package:simple_shopping/src/models/cart_notifier.dart';
 import 'package:simple_shopping/src/models/product.dart';
@@ -15,25 +16,38 @@ class SingleProduct extends StatelessWidget {
       color: Colors.white,
       child: Column(
         children: [
-          Container(
-            height: 150.0,
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                fit: BoxFit.contain,
-                image: AssetImage(product.image),
-              ),
-              borderRadius: const BorderRadius.all(
-                Radius.circular(12.0),
+          InkWell(
+            onTap: () {
+              context.push("/product/${product.id}");
+            },
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(12.0),
+              child: Hero(
+                tag: 'product_image_hero_${product.id}',
+                child: Image.asset(
+                  product.image,
+                  height: 150,
+                  fit: BoxFit.contain,
+                ),
               ),
             ),
           ),
           const SizedBox(height: 10),
-          Text(product.name),
+          Hero(
+            tag: 'product_name_hero_${product.id}',
+            child: Text(product.name),
+          ),
           Row(
             children: [
-              Text("Rs.${product.price.toStringAsFixed(2)}"),
+              Hero(
+                tag: 'product_price_hero_${product.id}',
+                child: Text("Rs.${product.price.toStringAsFixed(2)}"),
+              ),
               const Spacer(),
-              Text(context.watch<CartNotifier>().totalProductItem(product).toString()),
+              Text(context
+                  .watch<CartNotifier>()
+                  .totalProductItem(product)
+                  .toString()),
               InkWell(
                 onTap: () {
                   context.read<CartNotifier>().increaseQty(product);

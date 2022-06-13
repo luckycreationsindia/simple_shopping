@@ -73,7 +73,7 @@ class CartSingleProduct extends StatelessWidget {
                         icon: const Icon(
                           Icons.delete,
                         ),
-                      )
+                      ),
                     ],
                   ),
                 ),

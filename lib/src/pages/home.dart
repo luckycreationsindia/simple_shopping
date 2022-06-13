@@ -6,6 +6,7 @@ import 'package:simple_shopping/src/components/custom_drawer.dart';
 import 'package:simple_shopping/src/components/product_filters.dart';
 import 'package:simple_shopping/src/components/single_product.dart';
 import 'package:simple_shopping/src/models/product_list.dart';
+import 'package:simple_shopping/src/utils/sample_data.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
@@ -17,7 +18,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   void initState() {
     super.initState();
@@ -57,7 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             return GridView.builder(
                               physics: const BouncingScrollPhysics(),
                               scrollDirection: Axis.vertical,
-                              itemCount: productListProvider.totalFilteredProducts,
+                              itemCount:
+                                  productListProvider.totalFilteredProducts,
                               itemBuilder: (BuildContext context, int index) {
                                 return SingleProduct(
                                   product:

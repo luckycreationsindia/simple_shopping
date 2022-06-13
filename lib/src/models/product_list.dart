@@ -4,6 +4,7 @@ import 'package:simple_shopping/src/utils/sample_data.dart';
 
 class ProductList extends ChangeNotifier {
   List<Product> productList = [];
+  Map<String, Product> productMap = {};
 
   int get totalProducts => SampleData.allProducts.length;
   int get totalFilteredProducts => productList.length;
@@ -11,6 +12,10 @@ class ProductList extends ChangeNotifier {
   void reset() {
     productList.clear();
     productList.addAll(SampleData.allProducts);
+    for (var p in productList) {
+      productMap[p.id] = p;
+    }
+    notifyListeners();
   }
 
   void filter(String? filter) {
