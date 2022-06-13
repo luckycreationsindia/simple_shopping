@@ -10,14 +10,14 @@ Don't forget to star⭐ the repo if you like what you see😉.
 # 🎥 Demo
 | Product Demo |
 |------|
-|<img src="./demo.gif" width="300">|
+|<img src="demo.gif" width="300">|
 
 # 📸 Screenshots
 The screenshots below are taken on a android emulator.
 
 | 1 | 2|
 |------|-------|
-|<img src="./screenshots/1.png" width="300">|<img src="screenshots/2.png" width="300">|
+|<img src="screenshots/1.png" width="300">|<img src="screenshots/2.png" width="300">|
 
 | 3 | 4|
 |------|-------|
