@@ -1,16 +1,23 @@
-# simple_shopping
+# 👖👕 Simple Shopping - Shopping made Simple and Easier
 
-A Mock Interview App for Shopping.
+A Flutter UI template of a Simple Shopping App Design I found on Uplabs.
 
-## Getting Started
+Design screens are on [Uplabs.](https://www.uplabs.com/posts/shopping-app-uikit) It's free but for personal use, purchase it if you want to use it commercially.
 
-This project is a starting point for a Flutter application.
+> **Disclaimer:** I am not in anyway in affiliate with the designer of the screens. I just love the UI and decided to code it in Flutter😽
 
-A few resources to get you started if this is your first Flutter project:
+Don't forget to star⭐ the repo if you like what you see😉.
+# 🎥 Demo
+![demo](./demo.gif)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# 📸 Screenshots
+The screenshots below are taken on a android emulator.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| 1 | 2|
+|------|-------|
+|<img src="./screenshots/1.png" width="300">|<img src="screenshots/2.png" width="300">|
+
+| 3 | 4|
+|------|-------|
+|<img src="screenshots/3.png" width="300">|<img src="screenshots/4.png" width="300">|
+
