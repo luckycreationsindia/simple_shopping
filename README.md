@@ -21,3 +21,14 @@ The screenshots below are taken on a android emulator.
 |------|-------|
 |<img src="screenshots/3.png" width="300">|<img src="screenshots/4.png" width="300">|
 
+# ✨ Requirements
+- Any Operating System (ie. MacOS X, Linux, Windows)
+- Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
+- A little knowledge of Dart and Flutter
+- Device to test (Physical or Emulator or you can test on web too🤯)
+
+# ✨ 📲 Device Requirements
+- Android 19 and above for Android APK
+- iOS 9 or above for iPhone
+- Chrome 86 or Above for Chrome Browser
+- Windows 10 or Above or Windows Desktop App
